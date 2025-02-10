@@ -1,0 +1,21 @@
+[project]
+name = "treee_CodersBringChange"
+version = "0.0.3"
+description = "Visualizes directory tree from the current command line folder."
+authors = [
+  { name="Loek van den Ouweland", email="trainer@codersbringchange.com" },
+]
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = {text = "MIT"}
+
+[project.urls]
+Homepage = "https://github.com/pythonforeveryonetraining/treee_test"
+Issues = "https://github.com/pythonforeveryonetraining/treee_test/issues"
+
+[project.scripts]
+treee = "treee_CodersBringChange.tree:print_tree"

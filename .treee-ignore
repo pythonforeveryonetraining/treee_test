@@ -1,0 +1,5 @@
+env
+.git
+*egg*
+__pycache__
+dist
